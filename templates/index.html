@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <h1 class="display-4 mb-4">Welcome to the Dashboard</h1>
+            <p class="lead mb-4">
+                A modern web application with user authentication and real-time statistics.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="{{ url_for('auth.login') }}" class="btn btn-primary btn-lg px-4 gap-3">Login</a>
+                <a href="{{ url_for('auth.register') }}" class="btn btn-outline-secondary btn-lg px-4">Register</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="bi bi-shield-lock display-4 mb-3"></i>
+                    <h3>Secure Authentication</h3>
+                    <p>State-of-the-art security with password hashing and session management.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="bi bi-graph-up display-4 mb-3"></i>
+                    <h3>Real-time Analytics</h3>
+                    <p>Interactive charts and statistics for data visualization.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="bi bi-people display-4 mb-3"></i>
+                    <h3>User Management</h3>
+                    <p>Comprehensive user profiles and role-based access control.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

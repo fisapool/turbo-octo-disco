@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Profile Information</h2>
+                    <form id="profileForm">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="username" value="{{ user.username }}" readonly>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" value="{{ user.email }}">
+                        </div>
+                        <div class="mb-3">
+                            <label for="current_password" class="form-label">Current Password</label>
+                            <input type="password" class="form-control" id="current_password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="new_password" class="form-label">New Password</label>
+                            <input type="password" class="form-control" id="new_password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirm_password" class="form-label">Confirm New Password</label>
+                            <input type="password" class="form-control" id="confirm_password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Update Profile</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Account Statistics</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <strong>Member Since:</strong> {{ user.created_at.strftime('%B %d, %Y') }}
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Last Login:</strong> {{ user.last_login.strftime('%B %d, %Y %H:%M') if user.last_login else 'Never' }}
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Account Type:</strong> {{ 'Admin' if user.is_admin else 'Regular User' }}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% block extra_js %}
+<script>
+document.getElementById('profileForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const email = document.getElementById('email').value;
+    const currentPassword = document.getElementById('current_password').value;
+    const newPassword = document.getElementById('new_password').value;
+    const confirmPassword = document.getElementById('confirm_password').value;
+    
+    if (newPassword && newPassword !== confirmPassword) {
+        alert('New passwords do not match!');
+        return;
+    }
+    
+    const data = {
+        email: email,
+        password: newPassword || undefined
+    };
+    
+    fetch(`/api/users/{{ user.id }}`, {
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert('Profile updated successfully!');
+    })
+    .catch(error => {
+        alert('Error updating profile: ' + error.message);
+    });
+});
+</script>
+{% endblock %}
+{% endblock %} 

@@ -1,0 +1,42 @@
+{
+    "app": {
+        "name": "Activity Monitoring and Analysis System",
+        "version": "1.0.0",
+        "debug": false
+    },
+    "ml": {
+        "model_path": "ml/models/",
+        "data_path": "ml/data/",
+        "training": {
+            "batch_size": 32,
+            "epochs": 10,
+            "learning_rate": 0.001
+        }
+    },
+    "tracking": {
+        "screenshot_interval": 300,
+        "activity_log_interval": 60,
+        "window_tracking_interval": 1
+    },
+    "storage": {
+        "screenshots_dir": "data/screenshots/",
+        "recordings_dir": "data/recordings/",
+        "logs_dir": "data/logs/",
+        "reports_dir": "data/reports/"
+    },
+    "web": {
+        "host": "localhost",
+        "port": 5000,
+        "secret_key": "your-secret-key-here",
+        "debug": false
+    },
+    "logging": {
+        "level": "INFO",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        "file": "logs/app.log"
+    },
+    "security": {
+        "encryption_key": "your-encryption-key-here",
+        "session_timeout": 3600
+    }
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screenshot Labeling Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .image-section {
+            flex: 2;
+        }
+        .controls {
+            flex: 1;
+        }
+        #image-display {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        .btn {
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .code {
+            background-color: #f0f8ff;
+            color: #0066cc;
+        }
+        .document {
+            background-color: #fff8f0;
+            color: #cc6600;
+        }
+        .web {
+            background-color: #f0fff0;
+            color: #00cc66;
+        }
+        .skip {
+            background-color: #f0f0f0;
+            color: #666;
+        }
+        .stats {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Screenshot Labeling Interface</h1>
+    <div class="container">
+        <div class="image-section">
+            <img id="image-display" src="" alt="Screenshot to label">
+            <input type="file" id="file-input" accept="image/png, image/jpeg">
+        </div>
+        <div class="controls">
+            <h3>Select Category:</h3>
+            <button class="btn code" onclick="labelImage('code')">Code</button>
+            <button class="btn document" onclick="labelImage('document')">Document</button>
+            <button class="btn web" onclick="labelImage('web')">Web</button>
+            <button class="btn skip" onclick="nextImage()">Skip</button>
+            
+            <div class="stats">
+                <h3>Labeling Progress</h3>
+                <p>Labeled: <span id="labeled-count">0</span></p>
+                <p>Remaining: <span id="remaining-count">0</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentFile = null;
+        
+        // Initialize file input
+        document.getElementById('file-input').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                currentFile = file;
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    document.getElementById('image-display').src = event.target.result;
+                    getPrediction(file);
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+
+        // Get model prediction
+        function getPrediction(file) {
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            fetch('/api/predict', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.prediction) {
+                    console.log('Model prediction:', data.prediction);
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        // Label image and save
+        function labelImage(label) {
+            if (!currentFile) return;
+            
+            fetch('/api/label', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    filename: currentFile.name,
+                    label: label
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    updateStats();
+                    nextImage();
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        // Load next image
+        function nextImage() {
+            document.getElementById('file-input').value = '';
+            document.getElementById('image-display').src = '';
+            currentFile = null;
+        }
+
+        // Update stats
+        function updateStats() {
+            // TODO: Implement actual stats tracking
+            const labeled = parseInt(document.getElementById('labeled-count').textContent);
+            document.getElementById('labeled-count').textContent = labeled + 1;
+        }
+
+        // Initialize
+        updateStats();
+    </script>
+</body>
+</html>
