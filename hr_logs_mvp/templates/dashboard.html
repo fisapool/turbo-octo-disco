@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Logs Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <div class="flex-shrink-0 flex items-center">
+                        <h1 class="text-xl font-bold text-gray-800">HR Logs System</h1>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <span class="text-gray-700 mr-4">Welcome, {{ current_user.username }}</span>
+                    <a href="{{ url_for('logout') }}" class="text-gray-700 hover:text-gray-900">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+        <div class="px-4 py-6 sm:px-0">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-semibold text-gray-800">Your HR Logs</h2>
+                <button onclick="showNewLogModal()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    <i class="fas fa-plus mr-2"></i>New Log
+                </button>
+            </div>
+
+            <div class="bg-white shadow overflow-hidden sm:rounded-md">
+                <ul id="logsList" class="divide-y divide-gray-200">
+                    <!-- Logs will be loaded here via JavaScript -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- New Log Modal -->
+    <div id="newLogModal" class="hidden fixed z-10 inset-0 overflow-y-auto">
+        <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+                <div class="absolute inset-0 bg-gray-500 opacity-75"></div>
+            </div>
+            <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+                <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                    <h3 class="text-lg leading-6 font-medium text-gray-900 mb-4">Create New Log</h3>
+                    <form id="newLogForm">
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="logType">
+                                Log Type
+                            </label>
+                            <select id="logType" name="logType" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                                <option value="attendance">Attendance</option>
+                                <option value="leave">Leave</option>
+                                <option value="performance">Performance</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="description">
+                                Description
+                            </label>
+                            <textarea id="description" name="description" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                    <button type="button" onclick="submitNewLog()" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-600 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm">
+                        Submit
+                    </button>
+                    <button type="button" onclick="hideNewLogModal()" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+                        Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Load logs when page loads
+        document.addEventListener('DOMContentLoaded', loadLogs);
+
+        function loadLogs() {
+            fetch('/api/logs')
+                .then(response => response.json())
+                .then(logs => {
+                    const logsList = document.getElementById('logsList');
+                    logsList.innerHTML = logs.map(log => `
+                        <li class="px-6 py-4">
+                            <div class="flex items-center justify-between">
+                                <div class="flex-1 min-w-0">
+                                    <p class="text-sm font-medium text-gray-900 truncate">
+                                        ${log.log_type.charAt(0).toUpperCase() + log.log_type.slice(1)}
+                                    </p>
+                                    <p class="text-sm text-gray-500">
+                                        ${new Date(log.timestamp).toLocaleString()}
+                                    </p>
+                                </div>
+                                <div class="ml-4 flex-shrink-0">
+                                    <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full 
+                                        ${log.status === 'approved' ? 'bg-green-100 text-green-800' : 
+                                          log.status === 'rejected' ? 'bg-red-100 text-red-800' : 
+                                          'bg-yellow-100 text-yellow-800'}">
+                                        ${log.status}
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <p class="text-sm text-gray-500">${log.description}</p>
+                            </div>
+                        </li>
+                    `).join('');
+                });
+        }
+
+        function showNewLogModal() {
+            document.getElementById('newLogModal').classList.remove('hidden');
+        }
+
+        function hideNewLogModal() {
+            document.getElementById('newLogModal').classList.add('hidden');
+        }
+
+        function submitNewLog() {
+            const form = document.getElementById('newLogForm');
+            const formData = {
+                log_type: document.getElementById('logType').value,
+                description: document.getElementById('description').value
+            };
+
+            fetch('/api/logs', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                hideNewLogModal();
+                loadLogs();
+                form.reset();
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>
