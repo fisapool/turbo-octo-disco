@@ -1,0 +1,8 @@
+# Optional requirements for advanced features
+opencv-python==4.5.3.56
+numpy==1.21.2
+pynput==1.7.4
+prometheus-client==0.11.0
+redis==3.5.3
+psycopg2-binary==2.9.1; platform_system!="Windows"
+psycopg2==2.9.1; platform_system=="Windows"

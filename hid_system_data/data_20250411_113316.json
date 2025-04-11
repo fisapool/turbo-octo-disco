@@ -1,0 +1,4936 @@
+[
+  {
+    "timestamp": "2025-04-11T11:32:58.724599",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:58.724599",
+      "cpu_percent": 4.7,
+      "memory_percent": 88.7,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:58.760076",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:58.760076",
+      "cpu_percent": 6.5,
+      "memory_percent": 88.7,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:58.792117",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:58.792117",
+      "cpu_percent": 3.0,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:58.819170",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:58.819170",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:58.840556",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:58.840556",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:58.866977",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:58.866977",
+      "cpu_percent": 9.4,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:58.888762",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:58.888762",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:58.914861",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:58.914861",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:58.951115",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:58.951115",
+      "cpu_percent": 4.9,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:58.976818",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:58.976818",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.001437",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.001437",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.029153",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.029153",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.048155",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.048155",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.075089",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.075089",
+      "cpu_percent": 14.7,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.096108",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.096108",
+      "cpu_percent": 14.3,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.124193",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.124193",
+      "cpu_percent": 3.2,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.147749",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.147749",
+      "cpu_percent": 8.0,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.177237",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.177237",
+      "cpu_percent": 8.0,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.204621",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.204621",
+      "cpu_percent": 3.1,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.238965",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.238965",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.295459",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.295459",
+      "cpu_percent": 9.7,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.332087",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.332087",
+      "cpu_percent": 7.1,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.351365",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.351365",
+      "cpu_percent": 6.2,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.379805",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.379805",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.404802",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.404802",
+      "cpu_percent": 3.3,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.428948",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.428948",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.456111",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.456111",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.488213",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.488213",
+      "cpu_percent": 3.2,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.534213",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.534213",
+      "cpu_percent": 2.1,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.561578",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.561578",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.587498",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.587498",
+      "cpu_percent": 8.0,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.630183",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.630183",
+      "cpu_percent": 10.6,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.658787",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.658787",
+      "cpu_percent": 8.7,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.691791",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.691791",
+      "cpu_percent": 9.1,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.725524",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.725524",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.771858",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 5.3,
+      "memory_percent": 88.9,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506889224,
+        "bytes_recv": 9715109680
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.824247",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.824247",
+      "cpu_percent": 6.7,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.852745",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.852745",
+      "cpu_percent": 12.5,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.876282",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.876282",
+      "cpu_percent": 3.1,
+      "memory_percent": 88.9,
+      "active_processes": 421
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:32:59.951003",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:32:59.951003",
+      "cpu_percent": 14.3,
+      "memory_percent": 89.1,
+      "active_processes": 421
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.021955",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.021955",
+      "cpu_percent": 40.8,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.043648",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.043648",
+      "cpu_percent": 6.2,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.065337",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.065337",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.088883",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.088883",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.108474",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.108474",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.130159",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.130253",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.153199",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.153199",
+      "cpu_percent": 3.2,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.171901",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.174188",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.207358",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.207358",
+      "cpu_percent": 16.1,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.246204",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.246204",
+      "cpu_percent": 7.3,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.293625",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 594,
+      "y": 1083
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.293625",
+      "cpu_percent": 6.2,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.355283",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.355283",
+      "cpu_percent": 9.4,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.395087",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 596,
+      "y": 1085
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.395087",
+      "cpu_percent": 8.3,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.424263",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.424263",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.453952",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 672,
+      "y": 1175
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.453952",
+      "cpu_percent": 6.2,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.474939",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.474939",
+      "cpu_percent": 8.3,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.502448",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 722,
+      "y": 1329
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.502448",
+      "cpu_percent": 9.5,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.533407",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.533407",
+      "cpu_percent": 5.9,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.574622",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 720,
+      "y": 1465
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.574622",
+      "cpu_percent": 12.2,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.618874",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.618874",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.642625",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 738,
+      "y": 1525
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.642625",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.670169",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.670169",
+      "cpu_percent": 19.4,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.691323",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 990,
+      "y": 1553
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.691323",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.720541",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.720541",
+      "cpu_percent": 18.2,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.746935",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 1080,
+      "y": 1491
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.747136",
+      "cpu_percent": 10.5,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.774062",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.775126",
+      "cpu_percent": 6.7,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.829571",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 1061,
+      "y": 1509
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.829571",
+      "cpu_percent": 3.6,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.844038",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 9.2,
+      "memory_percent": 88.9,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506889224,
+        "bytes_recv": 9715109680
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.909995",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.909995",
+      "cpu_percent": 9.1,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.936811",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 1039,
+      "y": 1563
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.936811",
+      "cpu_percent": 11.8,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.961621",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.961621",
+      "cpu_percent": 8.3,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:00.989680",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 1041,
+      "y": 1609
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:00.989680",
+      "cpu_percent": 3.1,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.020422",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.020422",
+      "cpu_percent": 26.3,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.054241",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 1041,
+      "y": 1611
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.054241",
+      "cpu_percent": 5.7,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.089591",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.089591",
+      "cpu_percent": 0.0,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.108635",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 1035,
+      "y": 1619
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.108635",
+      "cpu_percent": 4.2,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.136060",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.136060",
+      "cpu_percent": 0.0,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.163332",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 1029,
+      "y": 1619
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.163332",
+      "cpu_percent": 8.3,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.175353",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.186390",
+      "cpu_percent": 10.3,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.209287",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 1023,
+      "y": 1619
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.209287",
+      "cpu_percent": 3.7,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.232329",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.232329",
+      "cpu_percent": 4.3,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.259372",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 1017,
+      "y": 1621
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.259372",
+      "cpu_percent": 22.2,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.291007",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.291007",
+      "cpu_percent": 6.9,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.309036",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 1009,
+      "y": 1621
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.309036",
+      "cpu_percent": 3.7,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.337960",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.337960",
+      "cpu_percent": 3.1,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.366904",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 1001,
+      "y": 1625
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.366904",
+      "cpu_percent": 4.2,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.397115",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.397115",
+      "cpu_percent": 4.9,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.442338",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 999,
+      "y": 1625
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.442338",
+      "cpu_percent": 5.4,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.478080",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.478080",
+      "cpu_percent": 6.2,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.508985",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 977,
+      "y": 1633
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.508985",
+      "cpu_percent": 7.0,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.546479",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.546479",
+      "cpu_percent": 3.0,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.570170",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 941,
+      "y": 1645
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.570170",
+      "cpu_percent": 3.4,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.595225",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.595225",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.625235",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 937,
+      "y": 1645
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.625235",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.648961",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 582,
+      "y": 1067
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": 1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.648961",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.676113",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 919,
+      "y": 1647
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.676113",
+      "cpu_percent": 8.7,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.699539",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 596,
+      "y": 1085
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": 1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.699539",
+      "cpu_percent": 4.0,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.724639",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 901,
+      "y": 1649
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.724639",
+      "cpu_percent": 4.3,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.746950",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 879,
+      "y": 1651
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.746950",
+      "cpu_percent": 3.3,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.772998",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 873,
+      "y": 1653
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.772998",
+      "cpu_percent": 16.7,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.795615",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 863,
+      "y": 1657
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.795615",
+      "cpu_percent": 6.1,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.822029",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 857,
+      "y": 1659
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:01.822029",
+      "cpu_percent": 6.7,
+      "memory_percent": 88.9,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:01.925752",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 6.4,
+      "memory_percent": 88.9,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506889543,
+        "bytes_recv": 9715110206
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:02.971945",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 5.0,
+      "memory_percent": 89.0,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506889598,
+        "bytes_recv": 9715110272
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:04.018030",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 5.0,
+      "memory_percent": 89.1,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506889726,
+        "bytes_recv": 9715110451
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:04.318168",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 857,
+      "y": 1657
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:04.318168",
+      "cpu_percent": 4.8,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:04.356636",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 857,
+      "y": 1647
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:04.356636",
+      "cpu_percent": 10.2,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:04.382732",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 857,
+      "y": 1645
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:04.382732",
+      "cpu_percent": 13.3,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:04.407160",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 857,
+      "y": 1643
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:04.407160",
+      "cpu_percent": 3.0,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:04.429766",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 857,
+      "y": 1641
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:04.429766",
+      "cpu_percent": 8.3,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:04.583298",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 857,
+      "y": 1641
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:04.583298",
+      "cpu_percent": 2.1,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:04.614204",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 857,
+      "y": 1641
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:04.614204",
+      "cpu_percent": 6.0,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:04.640069",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 857,
+      "y": 1641
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:04.640069",
+      "cpu_percent": 8.7,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:04.669626",
+    "type": "mouse",
+    "event": "scroll",
+    "position": {
+      "x": 857,
+      "y": 1641
+    },
+    "scroll": {
+      "dx": 0,
+      "dy": -1
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:04.669626",
+      "cpu_percent": 6.5,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:04.935330",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 857,
+      "y": 1639
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:04.935330",
+      "cpu_percent": 3.1,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:04.973201",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 855,
+      "y": 1633
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:04.973201",
+      "cpu_percent": 4.7,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:05.010013",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 851,
+      "y": 1627
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:05.010013",
+      "cpu_percent": 15.2,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:05.040145",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 847,
+      "y": 1623
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:05.040145",
+      "cpu_percent": 9.4,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:05.077087",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 845,
+      "y": 1623
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:05.077087",
+      "cpu_percent": 0.0,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:05.063479",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 4.2,
+      "memory_percent": 89.1,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506889990,
+        "bytes_recv": 9715111273
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:05.593297",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 843,
+      "y": 1623
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:05.593297",
+      "cpu_percent": 6.4,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:05.623738",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 841,
+      "y": 1619
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:05.623738",
+      "cpu_percent": 16.1,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:05.646295",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 841,
+      "y": 1613
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:05.646295",
+      "cpu_percent": 0.0,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:05.680022",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 839,
+      "y": 1611
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:05.680022",
+      "cpu_percent": 9.4,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:05.695173",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 837,
+      "y": 1605
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:05.695173",
+      "cpu_percent": 0.0,
+      "memory_percent": 89.1,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:05.793694",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 837,
+      "y": 1603
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:05.793694",
+      "cpu_percent": 5.4,
+      "memory_percent": 89.2,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:05.836461",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 835,
+      "y": 1603
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:05.836461",
+      "cpu_percent": 6.7,
+      "memory_percent": 89.2,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:05.978127",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 835,
+      "y": 1601
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:05.978127",
+      "cpu_percent": 8.8,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:06.057733",
+    "type": "mouse",
+    "event": "click",
+    "button": "Button.left",
+    "action": "press",
+    "position": {
+      "x": 835,
+      "y": 1601
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:06.057733",
+      "cpu_percent": 4.6,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:06.118474",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 6.4,
+      "memory_percent": 88.8,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506889990,
+        "bytes_recv": 9715111273
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:06.176143",
+    "type": "mouse",
+    "event": "click",
+    "button": "Button.left",
+    "action": "release",
+    "position": {
+      "x": 835,
+      "y": 1601
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:06.176143",
+      "cpu_percent": 4.4,
+      "memory_percent": 88.8,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:07.163632",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 5.9,
+      "memory_percent": 88.9,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506890208,
+        "bytes_recv": 9715111701
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.205593",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 4.6,
+      "memory_percent": 88.9,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506890263,
+        "bytes_recv": 9715111965
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.639358",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 835,
+      "y": 1599
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.639358",
+      "cpu_percent": 5.5,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.667988",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 797,
+      "y": 1449
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.667988",
+      "cpu_percent": 9.1,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.682621",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 763,
+      "y": 1401
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.682621",
+      "cpu_percent": 0.0,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.702918",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 723,
+      "y": 1361
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.702918",
+      "cpu_percent": 0.0,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.720727",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 671,
+      "y": 1323
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.720727",
+      "cpu_percent": 0.0,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.739393",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 623,
+      "y": 1295
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.739393",
+      "cpu_percent": 0.0,
+      "memory_percent": 89.0,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.781931",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 475,
+      "y": 1237
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.781931",
+      "cpu_percent": 11.1,
+      "memory_percent": 88.7,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.798321",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 431,
+      "y": 1231
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.798321",
+      "cpu_percent": 15.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.815698",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 381,
+      "y": 1235
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.815698",
+      "cpu_percent": 12.5,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.846570",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 365,
+      "y": 1245
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.846570",
+      "cpu_percent": 3.4,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.865316",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 351,
+      "y": 1263
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.865316",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.881994",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 333,
+      "y": 1299
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.881994",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.897750",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 329,
+      "y": 1311
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.897750",
+      "cpu_percent": 21.1,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.914239",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 327,
+      "y": 1331
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.914239",
+      "cpu_percent": 6.2,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.939617",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 339,
+      "y": 1361
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.939617",
+      "cpu_percent": 8.3,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.966602",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 357,
+      "y": 1381
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.966602",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:08.986546",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 371,
+      "y": 1395
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:08.986546",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.005367",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 397,
+      "y": 1409
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.005367",
+      "cpu_percent": 4.5,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.028648",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 431,
+      "y": 1417
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.028648",
+      "cpu_percent": 13.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.049200",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 507,
+      "y": 1417
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.049200",
+      "cpu_percent": 10.5,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.063540",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 527,
+      "y": 1417
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.063540",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.094955",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 659,
+      "y": 1415
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.094955",
+      "cpu_percent": 8.3,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.117179",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 713,
+      "y": 1405
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.117179",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.138734",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 721,
+      "y": 1389
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.138734",
+      "cpu_percent": 4.5,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.165116",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 727,
+      "y": 1343
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.165116",
+      "cpu_percent": 5.6,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.186224",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 735,
+      "y": 1309
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.186224",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.206600",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 745,
+      "y": 1255
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.206600",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.230427",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 745,
+      "y": 1239
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.230427",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.250145",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 737,
+      "y": 1191
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.250145",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.269910",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 5.7,
+      "memory_percent": 88.6,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506890371,
+        "bytes_recv": 9715112073
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.297351",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 703,
+      "y": 1145
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.297351",
+      "cpu_percent": 5.9,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.317617",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 639,
+      "y": 1115
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.317617",
+      "cpu_percent": 4.5,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.339896",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 611,
+      "y": 1113
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.339896",
+      "cpu_percent": 12.5,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.361053",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 577,
+      "y": 1119
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.361053",
+      "cpu_percent": 14.3,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.381257",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 525,
+      "y": 1135
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.381257",
+      "cpu_percent": 15.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.407627",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 393,
+      "y": 1199
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.407627",
+      "cpu_percent": 12.5,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.428924",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 349,
+      "y": 1233
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.428924",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.450174",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 337,
+      "y": 1253
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.450174",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.471844",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 329,
+      "y": 1293
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.471844",
+      "cpu_percent": 5.6,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.485825",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 331,
+      "y": 1321
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.485825",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.513503",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 361,
+      "y": 1375
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.513503",
+      "cpu_percent": 13.6,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.531202",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 373,
+      "y": 1389
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.531202",
+      "cpu_percent": 5.6,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.550038",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 411,
+      "y": 1419
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.550038",
+      "cpu_percent": 18.8,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.568930",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 481,
+      "y": 1447
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.568930",
+      "cpu_percent": 8.7,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.587466",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 539,
+      "y": 1457
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.587466",
+      "cpu_percent": 11.8,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.612520",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 623,
+      "y": 1457
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.612520",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.639440",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 705,
+      "y": 1437
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.639440",
+      "cpu_percent": 9.7,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.660479",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 759,
+      "y": 1407
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.660479",
+      "cpu_percent": 17.6,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.690008",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 775,
+      "y": 1387
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.690008",
+      "cpu_percent": 3.2,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.713257",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 787,
+      "y": 1361
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.713257",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.734495",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 815,
+      "y": 1291
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.734495",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.758574",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 825,
+      "y": 1233
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.758574",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.785485",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 809,
+      "y": 1157
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.785485",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.812693",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 767,
+      "y": 1105
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.812693",
+      "cpu_percent": 4.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.835262",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 729,
+      "y": 1077
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.835262",
+      "cpu_percent": 8.7,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.864013",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 653,
+      "y": 1045
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.864013",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.896113",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 533,
+      "y": 1039
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.896113",
+      "cpu_percent": 9.7,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.917812",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 431,
+      "y": 1055
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.917812",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.945500",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 347,
+      "y": 1089
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.945500",
+      "cpu_percent": 6.1,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.966471",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 287,
+      "y": 1129
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.966471",
+      "cpu_percent": 6.5,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:09.987706",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 249,
+      "y": 1191
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:09.987706",
+      "cpu_percent": 11.8,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.006970",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 247,
+      "y": 1209
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.006970",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.039522",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 285,
+      "y": 1315
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.039522",
+      "cpu_percent": 12.5,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.062324",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 323,
+      "y": 1359
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.062324",
+      "cpu_percent": 31.6,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.084744",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 403,
+      "y": 1401
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.084744",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.105031",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 479,
+      "y": 1415
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.105031",
+      "cpu_percent": 6.2,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.131715",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 601,
+      "y": 1419
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.131715",
+      "cpu_percent": 4.3,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.165042",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 729,
+      "y": 1407
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.165042",
+      "cpu_percent": 2.4,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.190922",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 833,
+      "y": 1377
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.190922",
+      "cpu_percent": 8.3,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.220841",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 839,
+      "y": 1363
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.220841",
+      "cpu_percent": 3.1,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.241481",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 839,
+      "y": 1329
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.241481",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.268645",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 839,
+      "y": 1291
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.268645",
+      "cpu_percent": 3.1,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.290346",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 823,
+      "y": 1247
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.290346",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.318474",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 797,
+      "y": 1217
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.318474",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.337517",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 6.3,
+      "memory_percent": 88.6,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506890650,
+        "bytes_recv": 9715112313
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.381718",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 689,
+      "y": 1187
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.381718",
+      "cpu_percent": 7.4,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.435035",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 623,
+      "y": 1223
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.435035",
+      "cpu_percent": 2.7,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.475340",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 613,
+      "y": 1251
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.475340",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.499991",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 611,
+      "y": 1267
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.499991",
+      "cpu_percent": 3.1,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.522026",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 611,
+      "y": 1297
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.522026",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.553362",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 617,
+      "y": 1315
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.553362",
+      "cpu_percent": 12.5,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.571559",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 631,
+      "y": 1333
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.571559",
+      "cpu_percent": 8.3,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.606848",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 649,
+      "y": 1351
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.606848",
+      "cpu_percent": 11.4,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.619022",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 663,
+      "y": 1369
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.619022",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.654358",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 669,
+      "y": 1379
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.654358",
+      "cpu_percent": 5.1,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.680842",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 681,
+      "y": 1403
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.680842",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.701406",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 683,
+      "y": 1411
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.701406",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.730274",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 687,
+      "y": 1427
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.730274",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.753808",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 689,
+      "y": 1435
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.753808",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.768896",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 689,
+      "y": 1437
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.768896",
+      "cpu_percent": 8.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.808360",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 689,
+      "y": 1449
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.808360",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.833647",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 689,
+      "y": 1457
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.833647",
+      "cpu_percent": 17.4,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.858509",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 687,
+      "y": 1479
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.858509",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.881989",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 687,
+      "y": 1499
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.881989",
+      "cpu_percent": 12.5,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.907222",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 687,
+      "y": 1519
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.907222",
+      "cpu_percent": 3.2,
+      "memory_percent": 88.5,
+      "active_processes": 419
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:10.994228",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 687,
+      "y": 1527
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:10.994228",
+      "cpu_percent": 23.1,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:11.436230",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 7.6,
+      "memory_percent": 88.5,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506897024,
+        "bytes_recv": 9715116406
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:11.770613",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 689,
+      "y": 1527
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:11.770613",
+      "cpu_percent": 7.5,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:11.798451",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 691,
+      "y": 1529
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:11.798451",
+      "cpu_percent": 10.8,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:11.822125",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 693,
+      "y": 1533
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:11.822125",
+      "cpu_percent": 11.8,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:11.851345",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 695,
+      "y": 1535
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:11.851345",
+      "cpu_percent": 9.4,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:11.876914",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 697,
+      "y": 1537
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:11.876914",
+      "cpu_percent": 3.2,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:11.903248",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 699,
+      "y": 1537
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:11.903248",
+      "cpu_percent": 3.2,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:11.989214",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 699,
+      "y": 1539
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:11.989214",
+      "cpu_percent": 11.1,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.020280",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 701,
+      "y": 1539
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:12.020280",
+      "cpu_percent": 12.5,
+      "memory_percent": 88.6,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.058686",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 703,
+      "y": 1539
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:12.058686",
+      "cpu_percent": 15.2,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.080610",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 705,
+      "y": 1541
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:12.080610",
+      "cpu_percent": 9.4,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.101480",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 707,
+      "y": 1543
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:12.101480",
+      "cpu_percent": 5.9,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.134431",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 709,
+      "y": 1547
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:12.134431",
+      "cpu_percent": 5.1,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.155190",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 711,
+      "y": 1549
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:12.155190",
+      "cpu_percent": 4.3,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.199654",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 713,
+      "y": 1551
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:12.199654",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.238681",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 715,
+      "y": 1553
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:12.238681",
+      "cpu_percent": 18.4,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.295870",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 715,
+      "y": 1555
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:12.295870",
+      "cpu_percent": 5.5,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.333627",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 715,
+      "y": 1557
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:12.333627",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.368118",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 715,
+      "y": 1559
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:12.368118",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.390713",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 717,
+      "y": 1563
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:12.390713",
+      "cpu_percent": 8.3,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.420014",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 719,
+      "y": 1565
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:12.420014",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.477058",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 6.7,
+      "memory_percent": 88.5,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506897595,
+        "bytes_recv": 9715116623
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:12.770122",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:12.770122",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.049227",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 719,
+      "y": 1567
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.049415",
+      "cpu_percent": 6.3,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.083140",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 719,
+      "y": 1569
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.083140",
+      "cpu_percent": 2.9,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.117454",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 719,
+      "y": 1571
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.117454",
+      "cpu_percent": 6.1,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.284148",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.284148",
+      "cpu_percent": 7.3,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.311279",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.311279",
+      "cpu_percent": 7.5,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.338315",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.338315",
+      "cpu_percent": 12.5,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.382523",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.382523",
+      "cpu_percent": 6.7,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.403473",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.403473",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.440159",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.440159",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.482132",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.482132",
+      "cpu_percent": 25.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.511384",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.511384",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.523464",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 6.9,
+      "memory_percent": 88.5,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506897759,
+        "bytes_recv": 9715116623
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.574254",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.574254",
+      "cpu_percent": 7.7,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.603520",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.603520",
+      "cpu_percent": 6.2,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.632736",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.632736",
+      "cpu_percent": 3.1,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.658018",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.658018",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.685833",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.685833",
+      "cpu_percent": 6.5,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.704532",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.704532",
+      "cpu_percent": 4.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.739383",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.739383",
+      "cpu_percent": 12.5,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.775379",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.775379",
+      "cpu_percent": 6.2,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.801874",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.801874",
+      "cpu_percent": 12.9,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.832817",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.832817",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.871119",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.871119",
+      "cpu_percent": 6.8,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.900334",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.900334",
+      "cpu_percent": 3.1,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.933649",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.933877",
+      "cpu_percent": 4.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:13.969864",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:13.969864",
+      "cpu_percent": 6.1,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.000966",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.000966",
+      "cpu_percent": 10.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.033881",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.033881",
+      "cpu_percent": 6.7,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.069405",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.069405",
+      "cpu_percent": 3.1,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.101724",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.101724",
+      "cpu_percent": 2.4,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.133725",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.133725",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.169707",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.169707",
+      "cpu_percent": 2.7,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.200669",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.200943",
+      "cpu_percent": 7.3,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.235120",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.235120",
+      "cpu_percent": 5.9,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.274417",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.274417",
+      "cpu_percent": 2.9,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.303190",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.303190",
+      "cpu_percent": 6.2,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.326803",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.326803",
+      "cpu_percent": 3.3,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.359263",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.359263",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.399838",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.399838",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.434894",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.434894",
+      "cpu_percent": 4.7,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.467933",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.467933",
+      "cpu_percent": 11.4,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.493918",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.493918",
+      "cpu_percent": 12.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.535099",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.535099",
+      "cpu_percent": 23.3,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.568718",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.568718",
+      "cpu_percent": 2.4,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.593468",
+    "type": "system",
+    "metrics": {
+      "cpu_percent": 5.7,
+      "memory_percent": 88.5,
+      "disk_usage": 58.6,
+      "network_io": {
+        "bytes_sent": 506898253,
+        "bytes_recv": 9715117897
+      },
+      "process_count": 415,
+      "system_info": {
+        "platform": "Windows",
+        "platform_version": "10.0.22631",
+        "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+        "python_version": "3.11.9"
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.605646",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.605646",
+      "cpu_percent": 5.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.653784",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.653784",
+      "cpu_percent": 3.6,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.687655",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.687655",
+      "cpu_percent": 6.5,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.712737",
+    "type": "keyboard",
+    "event": "press",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.712737",
+      "cpu_percent": 8.0,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.738788",
+    "type": "keyboard",
+    "event": "press",
+    "key": "'\\x03'",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.738788",
+      "cpu_percent": 4.2,
+      "memory_percent": 88.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.903319",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 719,
+      "y": 1573
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.903319",
+      "cpu_percent": 6.0,
+      "memory_percent": 88.4,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.925434",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 715,
+      "y": 1579
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.925434",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.4,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.956746",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 713,
+      "y": 1585
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.956746",
+      "cpu_percent": 20.8,
+      "memory_percent": 88.4,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:14.984924",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 709,
+      "y": 1589
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:14.984924",
+      "cpu_percent": 12.5,
+      "memory_percent": 88.4,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:15.007428",
+    "type": "keyboard",
+    "event": "release",
+    "key": "'\\x03'",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:15.007428",
+      "cpu_percent": 5.7,
+      "memory_percent": 88.4,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:15.034437",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 707,
+      "y": 1595
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:15.034437",
+      "cpu_percent": 4.1,
+      "memory_percent": 88.4,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:15.056581",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 707,
+      "y": 1597
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:15.056581",
+      "cpu_percent": 0.0,
+      "memory_percent": 88.4,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:15.257636",
+    "type": "keyboard",
+    "event": "release",
+    "key": "Key.ctrl_l",
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:15.257636",
+      "cpu_percent": 7.8,
+      "memory_percent": 82.4,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:15.443742",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 707,
+      "y": 1595
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:15.443742",
+      "cpu_percent": 12.2,
+      "memory_percent": 82.4,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:15.475026",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 719,
+      "y": 1579
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:15.475026",
+      "cpu_percent": 30.4,
+      "memory_percent": 82.5,
+      "active_processes": 415
+    }
+  },
+  {
+    "timestamp": "2025-04-11T11:33:15.505841",
+    "type": "mouse",
+    "event": "move",
+    "position": {
+      "x": 725,
+      "y": 1571
+    },
+    "system_state": {
+      "timestamp": "2025-04-11T11:33:15.505841",
+      "cpu_percent": 9.4,
+      "memory_percent": 82.5,
+      "active_processes": 415
+    }
+  }
+]

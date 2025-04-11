@@ -1,0 +1,814 @@
+{
+    "session_duration": 126.04255175590515,
+    "posture_warnings": 0,
+    "breaks_taken": 0,
+    "activity_data": {
+        "focus_sessions": [],
+        "posture_warnings": [],
+        "breaks_taken": [],
+        "activity_level": [
+            {
+                "timestamp": 1744344504.5042598,
+                "cpu_usage": 0.0
+            },
+            {
+                "timestamp": 1744344505.5377395,
+                "cpu_usage": 3.0
+            },
+            {
+                "timestamp": 1744344506.5671775,
+                "cpu_usage": 1.9
+            },
+            {
+                "timestamp": 1744344507.5895708,
+                "cpu_usage": 2.1
+            },
+            {
+                "timestamp": 1744344508.6139622,
+                "cpu_usage": 2.4
+            },
+            {
+                "timestamp": 1744344509.653231,
+                "cpu_usage": 2.5
+            },
+            {
+                "timestamp": 1744344510.671581,
+                "cpu_usage": 3.0
+            },
+            {
+                "timestamp": 1744344511.6982012,
+                "cpu_usage": 3.7
+            },
+            {
+                "timestamp": 1744344512.7180722,
+                "cpu_usage": 4.3
+            },
+            {
+                "timestamp": 1744344513.7498844,
+                "cpu_usage": 1.8
+            },
+            {
+                "timestamp": 1744344514.7685165,
+                "cpu_usage": 3.0
+            },
+            {
+                "timestamp": 1744344515.7977643,
+                "cpu_usage": 3.3
+            },
+            {
+                "timestamp": 1744344516.8198068,
+                "cpu_usage": 2.8
+            },
+            {
+                "timestamp": 1744344517.8490503,
+                "cpu_usage": 3.0
+            },
+            {
+                "timestamp": 1744344518.8815222,
+                "cpu_usage": 2.6
+            },
+            {
+                "timestamp": 1744344519.9057908,
+                "cpu_usage": 2.2
+            },
+            {
+                "timestamp": 1744344520.9346642,
+                "cpu_usage": 2.2
+            },
+            {
+                "timestamp": 1744344521.9551067,
+                "cpu_usage": 3.3
+            },
+            {
+                "timestamp": 1744344522.9827552,
+                "cpu_usage": 3.3
+            },
+            {
+                "timestamp": 1744344524.009982,
+                "cpu_usage": 2.8
+            },
+            {
+                "timestamp": 1744344525.0252168,
+                "cpu_usage": 2.1
+            },
+            {
+                "timestamp": 1744344526.0625653,
+                "cpu_usage": 2.5
+            },
+            {
+                "timestamp": 1744344527.0867321,
+                "cpu_usage": 2.5
+            },
+            {
+                "timestamp": 1744344528.10983,
+                "cpu_usage": 4.1
+            },
+            {
+                "timestamp": 1744344529.1339073,
+                "cpu_usage": 5.2
+            },
+            {
+                "timestamp": 1744344530.1573107,
+                "cpu_usage": 4.9
+            },
+            {
+                "timestamp": 1744344531.179433,
+                "cpu_usage": 9.3
+            },
+            {
+                "timestamp": 1744344532.2071617,
+                "cpu_usage": 6.6
+            },
+            {
+                "timestamp": 1744344533.2346034,
+                "cpu_usage": 3.7
+            },
+            {
+                "timestamp": 1744344534.2582135,
+                "cpu_usage": 2.1
+            },
+            {
+                "timestamp": 1744344535.2836823,
+                "cpu_usage": 2.8
+            },
+            {
+                "timestamp": 1744344536.3157725,
+                "cpu_usage": 3.5
+            },
+            {
+                "timestamp": 1744344537.3479137,
+                "cpu_usage": 4.5
+            },
+            {
+                "timestamp": 1744344538.3702428,
+                "cpu_usage": 4.2
+            },
+            {
+                "timestamp": 1744344539.3943799,
+                "cpu_usage": 2.9
+            },
+            {
+                "timestamp": 1744344540.4228318,
+                "cpu_usage": 3.7
+            },
+            {
+                "timestamp": 1744344541.4497557,
+                "cpu_usage": 3.8
+            },
+            {
+                "timestamp": 1744344542.479159,
+                "cpu_usage": 4.9
+            },
+            {
+                "timestamp": 1744344543.4895205,
+                "cpu_usage": 5.2
+            },
+            {
+                "timestamp": 1744344544.5205934,
+                "cpu_usage": 3.1
+            },
+            {
+                "timestamp": 1744344545.54537,
+                "cpu_usage": 3.5
+            },
+            {
+                "timestamp": 1744344546.5647776,
+                "cpu_usage": 5.5
+            },
+            {
+                "timestamp": 1744344547.593028,
+                "cpu_usage": 4.4
+            },
+            {
+                "timestamp": 1744344548.6282578,
+                "cpu_usage": 3.5
+            },
+            {
+                "timestamp": 1744344549.649948,
+                "cpu_usage": 2.0
+            },
+            {
+                "timestamp": 1744344550.673325,
+                "cpu_usage": 3.0
+            },
+            {
+                "timestamp": 1744344551.7030196,
+                "cpu_usage": 5.3
+            },
+            {
+                "timestamp": 1744344552.7232866,
+                "cpu_usage": 8.0
+            },
+            {
+                "timestamp": 1744344553.7575612,
+                "cpu_usage": 6.0
+            },
+            {
+                "timestamp": 1744344554.7846236,
+                "cpu_usage": 4.8
+            },
+            {
+                "timestamp": 1744344555.8125675,
+                "cpu_usage": 4.6
+            },
+            {
+                "timestamp": 1744344556.8401341,
+                "cpu_usage": 4.5
+            },
+            {
+                "timestamp": 1744344557.8696947,
+                "cpu_usage": 5.7
+            },
+            {
+                "timestamp": 1744344558.8927755,
+                "cpu_usage": 3.3
+            },
+            {
+                "timestamp": 1744344559.9245868,
+                "cpu_usage": 2.2
+            },
+            {
+                "timestamp": 1744344560.9498963,
+                "cpu_usage": 5.4
+            },
+            {
+                "timestamp": 1744344561.9825926,
+                "cpu_usage": 8.5
+            },
+            {
+                "timestamp": 1744344563.000715,
+                "cpu_usage": 7.4
+            },
+            {
+                "timestamp": 1744344564.0347655,
+                "cpu_usage": 5.0
+            },
+            {
+                "timestamp": 1744344565.0572648,
+                "cpu_usage": 2.6
+            },
+            {
+                "timestamp": 1744344566.086973,
+                "cpu_usage": 8.3
+            },
+            {
+                "timestamp": 1744344567.1185641,
+                "cpu_usage": 5.9
+            },
+            {
+                "timestamp": 1744344568.1421275,
+                "cpu_usage": 6.8
+            },
+            {
+                "timestamp": 1744344569.1741374,
+                "cpu_usage": 5.9
+            },
+            {
+                "timestamp": 1744344570.1924877,
+                "cpu_usage": 8.7
+            },
+            {
+                "timestamp": 1744344571.2262635,
+                "cpu_usage": 6.1
+            },
+            {
+                "timestamp": 1744344572.2587008,
+                "cpu_usage": 6.8
+            },
+            {
+                "timestamp": 1744344573.2782953,
+                "cpu_usage": 8.4
+            },
+            {
+                "timestamp": 1744344574.3133585,
+                "cpu_usage": 7.7
+            },
+            {
+                "timestamp": 1744344575.3314548,
+                "cpu_usage": 3.9
+            },
+            {
+                "timestamp": 1744344576.3700464,
+                "cpu_usage": 6.0
+            },
+            {
+                "timestamp": 1744344577.3956282,
+                "cpu_usage": 5.6
+            },
+            {
+                "timestamp": 1744344578.4239585,
+                "cpu_usage": 3.4
+            },
+            {
+                "timestamp": 1744344579.4494493,
+                "cpu_usage": 4.9
+            },
+            {
+                "timestamp": 1744344580.4748645,
+                "cpu_usage": 6.3
+            },
+            {
+                "timestamp": 1744344581.500596,
+                "cpu_usage": 8.6
+            },
+            {
+                "timestamp": 1744344582.5210488,
+                "cpu_usage": 6.7
+            },
+            {
+                "timestamp": 1744344583.5620828,
+                "cpu_usage": 7.6
+            },
+            {
+                "timestamp": 1744344584.5815585,
+                "cpu_usage": 3.7
+            },
+            {
+                "timestamp": 1744344585.6162162,
+                "cpu_usage": 7.4
+            },
+            {
+                "timestamp": 1744344586.6491003,
+                "cpu_usage": 7.0
+            },
+            {
+                "timestamp": 1744344587.6691306,
+                "cpu_usage": 8.0
+            },
+            {
+                "timestamp": 1744344588.707829,
+                "cpu_usage": 8.9
+            },
+            {
+                "timestamp": 1744344589.7365663,
+                "cpu_usage": 10.3
+            },
+            {
+                "timestamp": 1744344590.7663286,
+                "cpu_usage": 10.4
+            },
+            {
+                "timestamp": 1744344591.7886763,
+                "cpu_usage": 7.7
+            },
+            {
+                "timestamp": 1744344592.821448,
+                "cpu_usage": 6.8
+            },
+            {
+                "timestamp": 1744344593.8530831,
+                "cpu_usage": 6.6
+            },
+            {
+                "timestamp": 1744344594.884545,
+                "cpu_usage": 8.2
+            },
+            {
+                "timestamp": 1744344595.9178758,
+                "cpu_usage": 5.7
+            },
+            {
+                "timestamp": 1744344596.9482815,
+                "cpu_usage": 8.4
+            },
+            {
+                "timestamp": 1744344597.9826636,
+                "cpu_usage": 6.0
+            },
+            {
+                "timestamp": 1744344599.018221,
+                "cpu_usage": 5.4
+            },
+            {
+                "timestamp": 1744344600.0428882,
+                "cpu_usage": 7.4
+            },
+            {
+                "timestamp": 1744344601.0689416,
+                "cpu_usage": 5.8
+            },
+            {
+                "timestamp": 1744344602.1183665,
+                "cpu_usage": 9.7
+            },
+            {
+                "timestamp": 1744344603.1538944,
+                "cpu_usage": 9.1
+            },
+            {
+                "timestamp": 1744344604.1895666,
+                "cpu_usage": 6.9
+            },
+            {
+                "timestamp": 1744344605.2228332,
+                "cpu_usage": 7.8
+            },
+            {
+                "timestamp": 1744344606.2571607,
+                "cpu_usage": 7.2
+            },
+            {
+                "timestamp": 1744344607.2918558,
+                "cpu_usage": 6.0
+            },
+            {
+                "timestamp": 1744344608.322902,
+                "cpu_usage": 9.0
+            },
+            {
+                "timestamp": 1744344609.3571336,
+                "cpu_usage": 9.4
+            },
+            {
+                "timestamp": 1744344610.3915792,
+                "cpu_usage": 7.4
+            },
+            {
+                "timestamp": 1744344611.4280546,
+                "cpu_usage": 8.3
+            },
+            {
+                "timestamp": 1744344612.462159,
+                "cpu_usage": 7.1
+            },
+            {
+                "timestamp": 1744344613.4894128,
+                "cpu_usage": 6.9
+            },
+            {
+                "timestamp": 1744344614.527883,
+                "cpu_usage": 7.9
+            },
+            {
+                "timestamp": 1744344615.5572124,
+                "cpu_usage": 7.5
+            },
+            {
+                "timestamp": 1744344616.5943265,
+                "cpu_usage": 7.6
+            },
+            {
+                "timestamp": 1744344617.6212974,
+                "cpu_usage": 7.9
+            },
+            {
+                "timestamp": 1744344618.6570714,
+                "cpu_usage": 11.6
+            },
+            {
+                "timestamp": 1744344619.6852698,
+                "cpu_usage": 8.7
+            },
+            {
+                "timestamp": 1744344620.7213001,
+                "cpu_usage": 5.0
+            },
+            {
+                "timestamp": 1744344621.7503538,
+                "cpu_usage": 7.0
+            },
+            {
+                "timestamp": 1744344622.7702389,
+                "cpu_usage": 4.5
+            },
+            {
+                "timestamp": 1744344623.7993574,
+                "cpu_usage": 5.0
+            },
+            {
+                "timestamp": 1744344624.826883,
+                "cpu_usage": 4.2
+            },
+            {
+                "timestamp": 1744344625.8676264,
+                "cpu_usage": 2.4
+            },
+            {
+                "timestamp": 1744344626.8922496,
+                "cpu_usage": 3.7
+            },
+            {
+                "timestamp": 1744344627.9223628,
+                "cpu_usage": 3.1
+            },
+            {
+                "timestamp": 1744344628.948268,
+                "cpu_usage": 2.5
+            }
+        ],
+        "input_events": [
+            {
+                "timestamp": "2025-04-11 12:10:26",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:26",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:26",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:26",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:26",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:26",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:26",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:26",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:26",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:26",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:26",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:26",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:26",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:27",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:28",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:28",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:28",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:28",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:28",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:28",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:28",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:28",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:28",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:28",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:28",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:28",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:28",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:29",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:29",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:29",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:29",
+                "type": "mouse"
+            },
+            {
+                "timestamp": "2025-04-11 12:10:29",
+                "type": "mouse"
+            }
+        ]
+    }
+}

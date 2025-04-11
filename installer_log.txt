@@ -1,0 +1,188 @@
+2025-04-11 12:34:25,044 - INFO - Installer UI initialized successfully
+2025-04-11 12:34:29,143 - INFO - Starting installation process
+2025-04-11 12:34:29,143 - INFO - Created installation directory: C:\Users\USER\HR Analytics
+2025-04-11 12:34:29,143 - INFO - Installing core dependencies
+2025-04-11 12:34:40,007 - INFO - Core dependencies installed successfully
+2025-04-11 12:34:40,007 - INFO - Copying application files to C:\Users\USER\HR Analytics
+2025-04-11 12:34:40,007 - INFO - Copied activity_tracker.py to C:\Users\USER\HR Analytics
+2025-04-11 12:34:40,013 - INFO - Copied dashboard.py to C:\Users\USER\HR Analytics
+2025-04-11 12:34:40,014 - INFO - Copied analytics_engine.py to C:\Users\USER\HR Analytics
+2025-04-11 12:34:40,015 - INFO - Copied data_collection.py to C:\Users\USER\HR Analytics
+2025-04-11 12:34:40,016 - INFO - Copied config.json to C:\Users\USER\HR Analytics
+2025-04-11 12:34:40,016 - INFO - Application files copied successfully
+2025-04-11 12:34:40,016 - INFO - Configuring basic features
+2025-04-11 12:34:40,017 - INFO - Basic configuration saved to C:\Users\USER\HR Analytics\config.json
+2025-04-11 12:34:40,017 - INFO - Creating desktop shortcut
+2025-04-11 12:34:40,018 - ERROR - Failed to create shortcut: No module named 'winshell'
+2025-04-11 12:34:40,018 - ERROR - Installation failed: No module named 'winshell'
+2025-04-11 12:34:40,021 - ERROR - Traceback (most recent call last):
+  File "c:\Users\USER\Documents\jadi\installer.py", line 94, in install
+    self.create_shortcut(install_dir)
+  File "c:\Users\USER\Documents\jadi\installer.py", line 179, in create_shortcut
+    import winshell
+ModuleNotFoundError: No module named 'winshell'
+
+2025-04-11 12:34:53,722 - INFO - Starting installation process
+2025-04-11 12:34:53,722 - INFO - Created installation directory: C:\Users\USER\HR Analytics
+2025-04-11 12:34:53,722 - INFO - Installing core dependencies
+2025-04-11 12:34:55,690 - INFO - Core dependencies installed successfully
+2025-04-11 12:34:55,690 - INFO - Copying application files to C:\Users\USER\HR Analytics
+2025-04-11 12:34:55,691 - INFO - Copied activity_tracker.py to C:\Users\USER\HR Analytics
+2025-04-11 12:34:55,693 - INFO - Copied dashboard.py to C:\Users\USER\HR Analytics
+2025-04-11 12:34:55,694 - INFO - Copied analytics_engine.py to C:\Users\USER\HR Analytics
+2025-04-11 12:34:55,695 - INFO - Copied data_collection.py to C:\Users\USER\HR Analytics
+2025-04-11 12:34:55,695 - INFO - Copied config.json to C:\Users\USER\HR Analytics
+2025-04-11 12:34:55,695 - INFO - Application files copied successfully
+2025-04-11 12:34:55,696 - INFO - Configuring basic features
+2025-04-11 12:34:55,696 - INFO - Basic configuration saved to C:\Users\USER\HR Analytics\config.json
+2025-04-11 12:34:55,696 - INFO - Creating desktop shortcut
+2025-04-11 12:34:55,697 - ERROR - Failed to create shortcut: No module named 'winshell'
+2025-04-11 12:34:55,697 - ERROR - Installation failed: No module named 'winshell'
+2025-04-11 12:34:55,697 - ERROR - Traceback (most recent call last):
+  File "c:\Users\USER\Documents\jadi\installer.py", line 94, in install
+    self.create_shortcut(install_dir)
+  File "c:\Users\USER\Documents\jadi\installer.py", line 179, in create_shortcut
+    import winshell
+ModuleNotFoundError: No module named 'winshell'
+
+2025-04-11 12:36:09,502 - INFO - Installer UI initialized successfully
+2025-04-11 12:36:10,976 - INFO - Starting installation process
+2025-04-11 12:36:10,976 - INFO - Created installation directory: C:\Users\USER\HR Analytics
+2025-04-11 12:36:10,976 - INFO - Installing core dependencies
+2025-04-11 12:36:12,806 - INFO - Core dependencies installed successfully
+2025-04-11 12:36:12,806 - INFO - Copying application files to C:\Users\USER\HR Analytics
+2025-04-11 12:36:12,808 - INFO - Copied activity_tracker.py to C:\Users\USER\HR Analytics
+2025-04-11 12:36:12,809 - INFO - Copied dashboard.py to C:\Users\USER\HR Analytics
+2025-04-11 12:36:12,810 - INFO - Copied analytics_engine.py to C:\Users\USER\HR Analytics
+2025-04-11 12:36:12,810 - INFO - Copied data_collection.py to C:\Users\USER\HR Analytics
+2025-04-11 12:36:12,811 - INFO - Copied config.json to C:\Users\USER\HR Analytics
+2025-04-11 12:36:12,811 - INFO - Application files copied successfully
+2025-04-11 12:36:12,811 - INFO - Configuring basic features
+2025-04-11 12:36:12,812 - INFO - Basic configuration saved to C:\Users\USER\HR Analytics\config.json
+2025-04-11 12:36:12,812 - INFO - Attempting to create desktop shortcut
+2025-04-11 12:36:12,813 - WARNING - Skipping shortcut creation - winshell not installed
+2025-04-11 12:36:12,813 - INFO - Installation completed successfully (no shortcut)
+2025-04-11 12:40:32,039 - ERROR - Error initializing installer: Can't find a usable init.tcl in the following directories: 
+    C:/Users/USER/AppData/Local/Programs/Python/Python313/lib/tcl8.6 C:/lib/tcl8.6 C:/lib/tcl8.6 C:/library C:/library C:/tcl8.6.15/library C:/tcl8.6.15/library
+
+
+
+This probably means that Tcl wasn't installed properly.
+
+2025-04-11 12:40:32,046 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\jadi\installer.py", line 22, in __init__
+    self.root = tk.Tk()
+                ~~~~~^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2459, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+              ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: Can't find a usable init.tcl in the following directories: 
+    C:/Users/USER/AppData/Local/Programs/Python/Python313/lib/tcl8.6 C:/lib/tcl8.6 C:/lib/tcl8.6 C:/library C:/library C:/tcl8.6.15/library C:/tcl8.6.15/library
+
+
+
+This probably means that Tcl wasn't installed properly.
+
+
+2025-04-11 12:40:32,047 - ERROR - Unhandled exception: Can't find a usable init.tcl in the following directories: 
+    C:/Users/USER/AppData/Local/Programs/Python/Python313/lib/tcl8.6 C:/lib/tcl8.6 C:/lib/tcl8.6 C:/library C:/library C:/tcl8.6.15/library C:/tcl8.6.15/library
+
+
+
+This probably means that Tcl wasn't installed properly.
+
+2025-04-11 12:40:32,048 - ERROR - Traceback (most recent call last):
+  File "C:\Users\USER\Documents\jadi\installer.py", line 22, in __init__
+    self.root = tk.Tk()
+                ~~~~~^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2459, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+              ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: Can't find a usable init.tcl in the following directories: 
+    C:/Users/USER/AppData/Local/Programs/Python/Python313/lib/tcl8.6 C:/lib/tcl8.6 C:/lib/tcl8.6 C:/library C:/library C:/tcl8.6.15/library C:/tcl8.6.15/library
+
+
+
+This probably means that Tcl wasn't installed properly.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\jadi\installer.py", line 228, in <module>
+    installer = HRAnalyticsInstaller()
+  File "C:\Users\USER\Documents\jadi\installer.py", line 30, in __init__
+    self.show_error_and_exit(f"Failed to initialize installer: {str(e)}")
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\jadi\installer.py", line 211, in show_error_and_exit
+    root = tk.Tk()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2459, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+              ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: Can't find a usable init.tcl in the following directories: 
+    C:/Users/USER/AppData/Local/Programs/Python/Python313/lib/tcl8.6 C:/lib/tcl8.6 C:/lib/tcl8.6 C:/library C:/library C:/tcl8.6.15/library C:/tcl8.6.15/library
+
+
+
+This probably means that Tcl wasn't installed properly.
+
+
+2025-04-11 12:40:55,680 - INFO - Installer UI initialized successfully
+2025-04-11 12:40:58,314 - INFO - Starting installation process
+2025-04-11 12:40:58,315 - INFO - Created installation directory: C:\Users\USER\HR Analytics
+2025-04-11 12:40:58,315 - INFO - Installing core dependencies
+2025-04-11 12:40:59,879 - INFO - Core dependencies installed successfully
+2025-04-11 12:40:59,879 - INFO - Copying application files to C:\Users\USER\HR Analytics
+2025-04-11 12:40:59,881 - INFO - Copied activity_tracker.py to C:\Users\USER\HR Analytics
+2025-04-11 12:40:59,881 - INFO - Copied dashboard.py to C:\Users\USER\HR Analytics
+2025-04-11 12:40:59,882 - INFO - Copied analytics_engine.py to C:\Users\USER\HR Analytics
+2025-04-11 12:40:59,883 - INFO - Copied data_collection.py to C:\Users\USER\HR Analytics
+2025-04-11 12:40:59,884 - INFO - Copied config.json to C:\Users\USER\HR Analytics
+2025-04-11 12:40:59,884 - INFO - Application files copied successfully
+2025-04-11 12:40:59,884 - INFO - Configuring basic features
+2025-04-11 12:40:59,884 - INFO - Basic configuration saved to C:\Users\USER\HR Analytics\config.json
+2025-04-11 12:40:59,884 - INFO - Attempting to create desktop shortcut
+2025-04-11 12:40:59,885 - WARNING - Skipping shortcut creation - winshell not installed
+2025-04-11 12:40:59,885 - INFO - Installation completed successfully (no shortcut)
+2025-04-11 12:41:19,084 - INFO - Starting installation process
+2025-04-11 12:41:19,088 - INFO - Created installation directory: C:\Users\USER\HR Analytics
+2025-04-11 12:41:19,088 - INFO - Installing core dependencies
+2025-04-11 12:41:20,679 - INFO - Core dependencies installed successfully
+2025-04-11 12:41:20,679 - INFO - Copying application files to C:\Users\USER\HR Analytics
+2025-04-11 12:41:20,679 - INFO - Copied activity_tracker.py to C:\Users\USER\HR Analytics
+2025-04-11 12:41:20,694 - INFO - Copied dashboard.py to C:\Users\USER\HR Analytics
+2025-04-11 12:41:20,694 - INFO - Copied analytics_engine.py to C:\Users\USER\HR Analytics
+2025-04-11 12:41:20,694 - INFO - Copied data_collection.py to C:\Users\USER\HR Analytics
+2025-04-11 12:41:20,694 - INFO - Copied config.json to C:\Users\USER\HR Analytics
+2025-04-11 12:41:20,694 - INFO - Application files copied successfully
+2025-04-11 12:41:20,694 - INFO - Configuring basic features
+2025-04-11 12:41:20,694 - INFO - Basic configuration saved to C:\Users\USER\HR Analytics\config.json
+2025-04-11 12:41:20,694 - INFO - Creating desktop shortcut
+2025-04-11 12:41:20,694 - ERROR - Failed to create shortcut: No module named 'winshell'
+2025-04-11 12:41:20,694 - ERROR - Installation failed: No module named 'winshell'
+2025-04-11 12:41:20,694 - ERROR - Traceback (most recent call last):
+  File "c:\Users\USER\Documents\jadi\installer.py", line 94, in install
+    shortcut_created = self.create_shortcut(install_dir)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\USER\Documents\jadi\installer.py", line 179, in create_shortcut
+    def create_shortcut(self, install_dir):
+            ^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'winshell'
+
+2025-04-11 12:41:25,877 - INFO - Installer UI initialized successfully
+2025-04-11 12:41:29,405 - INFO - Starting installation process
+2025-04-11 12:41:29,405 - INFO - Created installation directory: C:\Users\USER\HR Analytics
+2025-04-11 12:41:29,405 - INFO - Installing core dependencies
+2025-04-11 12:41:30,918 - INFO - Core dependencies installed successfully
+2025-04-11 12:41:30,918 - INFO - Copying application files to C:\Users\USER\HR Analytics
+2025-04-11 12:41:30,919 - INFO - Copied activity_tracker.py to C:\Users\USER\HR Analytics
+2025-04-11 12:41:30,921 - INFO - Copied dashboard.py to C:\Users\USER\HR Analytics
+2025-04-11 12:41:30,921 - INFO - Copied analytics_engine.py to C:\Users\USER\HR Analytics
+2025-04-11 12:41:30,922 - INFO - Copied data_collection.py to C:\Users\USER\HR Analytics
+2025-04-11 12:41:30,923 - INFO - Copied config.json to C:\Users\USER\HR Analytics
+2025-04-11 12:41:30,923 - INFO - Application files copied successfully
+2025-04-11 12:41:30,924 - INFO - Configuring basic features
+2025-04-11 12:41:30,924 - INFO - Basic configuration saved to C:\Users\USER\HR Analytics\config.json
+2025-04-11 12:41:30,924 - INFO - Attempting to create desktop shortcut
+2025-04-11 12:41:30,926 - WARNING - Skipping shortcut creation - winshell not installed
+2025-04-11 12:41:30,926 - INFO - Installation completed successfully (no shortcut)

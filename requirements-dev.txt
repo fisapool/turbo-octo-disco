@@ -1,0 +1,12 @@
+# Development requirements (not needed for end users)
+pytest==6.2.5
+pytest-asyncio==0.15.1
+pytest-cov==2.12.1
+black==21.7b0
+flake8==3.9.2
+mypy==0.910
+isort==5.9.3
+bandit==1.7.0
+safety==1.10.3
+alembic==1.7.1
+sqlalchemy==1.4.23

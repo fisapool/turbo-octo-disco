@@ -1,0 +1,16 @@
+2025-04-11 12:22:42,670 - INFO - Python Environment: SUCCESS - Python version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+
+2025-04-11 12:22:44,845 - INFO - Required Packages: SUCCESS - All required packages are installed
+
+2025-04-11 12:22:47,344 - INFO - File Access: SUCCESS - All required files are accessible
+
+2025-04-11 12:22:49,867 - INFO - GUI Components: SUCCESS - GUI components are working
+
+2025-04-11 12:22:53,555 - INFO - Python Environment: SUCCESS - Python version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+
+2025-04-11 12:22:53,556 - INFO - Required Packages: SUCCESS - All required packages are installed
+
+2025-04-11 12:22:53,556 - INFO - File Access: SUCCESS - All required files are accessible
+
+2025-04-11 12:22:53,560 - INFO - GUI Components: SUCCESS - GUI components are working
+

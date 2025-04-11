@@ -13,7 +13,19 @@ class TestDataCorrelator(unittest.TestCase):
             'hid_data_dir': 'test_hid_data',
             'correlation_data_dir': 'test_correlation_data',
             'time_window': 300,
-            'correlation_interval': 3600
+            'correlation_interval': 3600,
+            'optimization': {
+                'use_caching': True,
+                'cache_size': 1000,
+                'parallel_processing': True,
+                'batch_size': 100,
+                'use_gpu': False,
+                'preprocessing': {
+                    'normalize': True,
+                    'detrend': True,
+                    'remove_outliers': True
+                }
+            }
         }
         self.correlator = DataCorrelator(self.config)
         

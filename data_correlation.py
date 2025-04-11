@@ -72,18 +72,18 @@ class DataCorrelator:
         
         # Load analysis files
         for file_path in self.webcam_dir.glob('analysis_*.json'):
-            file_time = datetime.strptime(
-                file_path.stem.split('_')[1],
-                '%Y%m%d_%H%M%S'
-            )
-            
-            if start_time <= file_time <= end_time:
-                try:
+            try:
+                file_time = datetime.strptime(
+                    file_path.stem.replace('analysis_', ''),
+                    '%Y%m%d_%H%M%S'
+                )
+                
+                if start_time <= file_time <= end_time:
                     with open(file_path, 'r') as f:
                         file_data = json.load(f)
                         data.append(file_data)
-                except Exception as e:
-                    logger.error(f"Error loading webcam data from {file_path}: {e}")
+            except Exception as e:
+                logger.error(f"Error loading webcam data from {file_path}: {e}")
         
         return sorted(data, key=lambda x: x['timestamp'])
     
@@ -93,30 +93,30 @@ class DataCorrelator:
         
         # Load metrics files
         for file_path in self.hid_dir.glob('metrics_*.json'):
-            file_time = datetime.strptime(
-                file_path.stem.split('_')[1],
-                '%Y%m%d_%H%M%S'
-            )
-            
-            if start_time <= file_time <= end_time:
-                try:
+            try:
+                file_time = datetime.strptime(
+                    file_path.stem.replace('metrics_', ''),
+                    '%Y%m%d_%H%M%S'
+                )
+                
+                if start_time <= file_time <= end_time:
                     with open(file_path, 'r') as f:
                         file_data = json.load(f)
                         if isinstance(file_data, list):
                             data.extend(file_data)
                         else:
                             data.append(file_data)
-                except Exception as e:
-                    logger.error(f"Error loading HID data from {file_path}: {e}")
+            except Exception as e:
+                logger.error(f"Error loading HID data from {file_path}: {e}")
         
         return sorted(data, key=lambda x: x['timestamp'])
     
     def _calculate_dynamic_time_warping(self, series1: np.ndarray, series2: np.ndarray) -> float:
         """Calculate Dynamic Time Warping distance between two time series."""
         try:
-            from dtw import dtw
-            alignment = dtw(series1, series2)
-            return alignment.distance
+            from dtaidistance import dtw
+            distance = dtw.distance(series1, series2)
+            return float(distance)
         except ImportError:
             logger.warning("DTW package not installed. Using Euclidean distance instead.")
             return np.linalg.norm(series1 - series2)

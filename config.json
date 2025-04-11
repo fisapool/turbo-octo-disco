@@ -1,4 +1,46 @@
 {
+    "data_collection": {
+        "keyboard": true,
+        "mouse": true,
+        "webcam": true,
+        "interval": 5,
+        "local_processing": true,
+        "data_retention_days": 7
+    },
+    "notifications": {
+        "posture_alerts": true,
+        "break_reminders": true,
+        "focus_time": true
+    },
+    "analytics": {
+        "real_time_processing": true,
+        "pattern_recognition": true,
+        "machine_learning": true
+    },
+    "ui": {
+        "dashboard": {
+            "enabled": true,
+            "port": 5000,
+            "refresh_rate": 1
+        },
+        "widgets": {
+            "activity_overview": true,
+            "posture_analysis": true,
+            "focus_metrics": true,
+            "break_timer": true
+        }
+    },
+    "privacy": {
+        "blur_faces": true,
+        "encrypt_data": true,
+        "local_storage_only": true
+    },
+    "system": {
+        "data_dir": "activity_data",
+        "log_level": "INFO",
+        "backup_enabled": true,
+        "backup_interval_hours": 24
+    },
     "webcam": {
         "recording_interval": 5,
         "snapshot_interval": 30,
