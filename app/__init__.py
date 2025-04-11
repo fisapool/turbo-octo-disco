@@ -1,24 +1,21 @@
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
-from flask_login import LoginManager
-from flask_migrate import Migrate
-import os
-from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from prometheus_client import make_asgi_app, Counter, Histogram
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
 import time
 import psutil
 import logging
-from app.routes import feedback
+import os
+from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
 
-# Initialize extensions
-db = SQLAlchemy()
-login_manager = LoginManager()
-migrate = Migrate()
+# Database setup
+SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///app.db")
+engine = create_engine(SQLALCHEMY_DATABASE_URL)
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 # Initialize FastAPI app
 app = FastAPI(title="ML Application", version="1.0.0")
@@ -52,33 +49,17 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def create_app():
-    app = Flask(__name__)
-    
-    # Configuration
-    app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'dev')
-    app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', 'sqlite:///app.db')
-    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-    
-    # Initialize extensions with app
-    db.init_app(app)
-    login_manager.init_app(app)
-    migrate.init_app(app, db)
-    
-    # Configure login manager
-    login_manager.login_view = 'auth.login'
-    login_manager.login_message = 'Please log in to access this page.'
-    
-    # Register blueprints
-    from app.routes import main, auth, api
-    app.register_blueprint(main.bp)
-    app.register_blueprint(auth.bp)
-    app.register_blueprint(api.bp, url_prefix='/api')
-    
-    # Include routers
-    app.include_router(feedback.router, prefix="/api/v1", tags=["feedback"])
-    
-    return app 
+# Dependency to get database session
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+
+# Include routers
+from app.routes import feedback
+app.include_router(feedback.router, prefix="/api/v1", tags=["feedback"])
 
 @app.get("/health")
 async def health_check():

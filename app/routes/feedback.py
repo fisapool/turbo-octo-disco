@@ -1,23 +1,27 @@
 from fastapi import APIRouter, HTTPException, Depends, BackgroundTasks
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 from typing import Optional, Dict, Any
 import logging
 from datetime import datetime
 import json
 import os
-from app.models.feedback import FeedbackData, FeedbackStorage
+from sqlalchemy.orm import Session
+from app.models.feedback import Feedback, FeedbackData, FeedbackStorage
 from app.core.notifications import send_feedback_notification
+from app import get_db
 
 router = APIRouter()
 logger = logging.getLogger(__name__)
 feedback_storage = FeedbackStorage()
 
 class FeedbackRequest(BaseModel):
+    model_config = ConfigDict(protected_namespaces=())
+    
     user_id: Optional[str] = None
     session_id: Optional[str] = None
     feedback_type: str
     input_data: Dict[str, Any]
-    model_prediction: Dict[str, Any]
+    prediction: Dict[str, Any]
     corrected_label: Optional[str] = None
     confidence_score: Optional[float] = None
     comments: Optional[str] = None
@@ -26,7 +30,8 @@ class FeedbackRequest(BaseModel):
 @router.post("/feedback")
 async def submit_feedback(
     feedback: FeedbackRequest,
-    background_tasks: BackgroundTasks
+    background_tasks: BackgroundTasks,
+    db: Session = Depends(get_db)
 ):
     """Submit user feedback or bug report"""
     try:
@@ -36,14 +41,30 @@ async def submit_feedback(
             session_id=feedback.session_id,
             feedback_type=feedback.feedback_type,
             input_data=feedback.input_data,
-            model_prediction=feedback.model_prediction,
+            model_prediction=feedback.prediction,
             corrected_label=feedback.corrected_label,
             confidence_score=feedback.confidence_score,
             comments=feedback.comments,
             metadata=feedback.metadata
         )
         
-        # Save feedback
+        # Create database record
+        db_feedback = Feedback(
+            user_id=feedback.user_id,
+            session_id=feedback.session_id,
+            feedback_type=feedback.feedback_type,
+            input_data=feedback.input_data,
+            model_prediction=feedback.prediction,
+            corrected_label=feedback.corrected_label,
+            confidence_score=feedback.confidence_score,
+            comments=feedback.comments,
+            feedback_metadata=feedback.metadata
+        )
+        db.add(db_feedback)
+        db.commit()
+        db.refresh(db_feedback)
+        
+        # Update metrics
         feedback_id = feedback_storage.save_feedback(feedback_data)
         
         # Send notification in background
@@ -56,7 +77,7 @@ async def submit_feedback(
         return {
             "status": "success",
             "message": "Feedback submitted successfully",
-            "feedback_id": feedback_id
+            "feedback_id": db_feedback.id
         }
         
     except Exception as e:
@@ -64,7 +85,7 @@ async def submit_feedback(
         raise HTTPException(status_code=500, detail="Failed to submit feedback")
 
 @router.get("/feedback/summary")
-async def get_feedback_summary():
+async def get_feedback_summary(db: Session = Depends(get_db)):
     """Get summary of all feedback"""
     try:
         metrics = feedback_storage._load_metrics()
@@ -83,7 +104,7 @@ async def get_feedback_summary():
         raise HTTPException(status_code=500, detail="Failed to get feedback summary")
 
 @router.get("/feedback/user/{user_id}")
-async def get_user_contributions(user_id: str):
+async def get_user_contributions(user_id: str, db: Session = Depends(get_db)):
     """Get contribution statistics for a specific user"""
     try:
         contributions = feedback_storage.get_user_contributions(user_id)

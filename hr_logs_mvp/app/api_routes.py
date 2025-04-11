@@ -1,9 +1,9 @@
 from flask import Blueprint, jsonify, request
 from flask_login import login_required, current_user
 from datetime import datetime
-from ..models import HRLog, User
+from models import User, Role, Log, Department, HRLog
 from .. import db
-from .roles import Role, admin_required
+from .roles import admin_required
 import psutil
 import os
 

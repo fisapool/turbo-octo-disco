@@ -1,0 +1,19 @@
+{
+    "webcam": {
+        "recording_interval": 5,
+        "snapshot_interval": 30,
+        "data_save_interval": 300,
+        "output_dir": "webcam_data",
+        "max_recording_duration": 60,
+        "posture_threshold": 0.7,
+        "face_detection_interval": 1
+    },
+    "hid_system": {
+        "data_save_interval": 300,
+        "output_dir": "hid_system_data",
+        "system_metrics_interval": 1,
+        "keyboard_sampling_rate": 0.1,
+        "mouse_sampling_rate": 0.1,
+        "max_buffer_size": 1000
+    }
+} 

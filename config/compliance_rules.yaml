@@ -1,0 +1,89 @@
+# Compliance Rules Configuration
+
+# Data retention periods in days
+data_retention:
+  tickets: 365  # 1 year
+  audit_logs: 730  # 2 years
+  user_data: 90  # 3 months
+  system_logs: 30  # 1 month
+
+# Required fields for ticket creation
+required_fields:
+  - user_id
+  - subject
+  - description
+  - priority
+  - category
+
+# Sensitive data patterns to detect and block
+sensitive_data:
+  - password
+  - token
+  - key
+  - secret
+  - credential
+  - api_key
+  - private_key
+  - ssh_key
+  - access_token
+  - bearer_token
+
+# GDPR compliance rules
+gdpr:
+  data_minimization: true
+  right_to_be_forgotten: true
+  data_portability: true
+  privacy_by_design: true
+  required_consent: true
+  data_processing_records: true
+
+# Security compliance rules
+security:
+  encryption_required: true
+  access_control: true
+  audit_logging: true
+  password_policy:
+    min_length: 8
+    require_uppercase: true
+    require_lowercase: true
+    require_numbers: true
+    require_special: true
+    max_age: 90  # days
+
+# Data classification
+data_classification:
+  public:
+    retention: 365
+    encryption: false
+    access_control: basic
+  internal:
+    retention: 180
+    encryption: true
+    access_control: role_based
+  confidential:
+    retention: 90
+    encryption: true
+    access_control: strict
+  restricted:
+    retention: 30
+    encryption: true
+    access_control: highest
+
+# Audit requirements
+audit:
+  login_attempts: true
+  data_access: true
+  configuration_changes: true
+  system_events: true
+  retention_period: 730  # days
+
+# Compliance monitoring
+monitoring:
+  regular_audits: true
+  audit_frequency: 90  # days
+  compliance_reporting: true
+  report_frequency: 30  # days
+  alert_thresholds:
+    data_breach: 1
+    compliance_violation: 1
+    audit_failure: 3 

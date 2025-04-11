@@ -1,0 +1,55 @@
+# Alert Thresholds Configuration
+
+# Response time threshold in seconds (1 hour)
+response_time: 3600
+
+# Resolution time threshold in seconds (24 hours)
+resolution_time: 86400
+
+# High priority ticket age threshold in seconds (2 hours)
+high_priority_age: 7200
+
+# Maximum number of tickets per hour
+ticket_volume: 100
+
+# System resource thresholds
+system_thresholds:
+  cpu_usage: 80  # percentage
+  memory_usage: 85  # percentage
+  disk_usage: 90  # percentage
+  network_latency: 100  # milliseconds
+
+# SLA thresholds
+sla_thresholds:
+  response_time: 3600  # 1 hour
+  resolution_time: 86400  # 24 hours
+  availability: 99.9  # percentage
+
+# Alert notification settings
+notifications:
+  email:
+    enabled: true
+    recipients:
+      - support@example.com
+      - alerts@example.com
+  slack:
+    enabled: true
+    channel: "#support-alerts"
+  pagerduty:
+    enabled: true
+    service_key: "your-service-key"
+
+# Alert severity levels
+severity_levels:
+  critical:
+    response_time: 1800  # 30 minutes
+    resolution_time: 43200  # 12 hours
+  high:
+    response_time: 3600  # 1 hour
+    resolution_time: 86400  # 24 hours
+  medium:
+    response_time: 7200  # 2 hours
+    resolution_time: 172800  # 48 hours
+  low:
+    response_time: 14400  # 4 hours
+    resolution_time: 259200  # 72 hours 

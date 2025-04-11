@@ -1,13 +1,69 @@
 global:
   scrape_interval: 15s
   evaluation_interval: 15s
+  scrape_timeout: 10s
 
 scrape_configs:
   - job_name: 'app'
     static_configs:
-      - targets: ['app:8000']
+      - targets: ['app:5000']
     metrics_path: '/metrics'
+    scheme: 'http'
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: instance
+    metrics_relabel_configs:
+      - source_labels: [__name__]
+        regex: '.*_total'
+        action: keep
+
+  - job_name: 'postgres'
+    static_configs:
+      - targets: ['db:9187']
+    metrics_path: '/metrics'
+    scheme: 'http'
+
+  - job_name: 'redis'
+    static_configs:
+      - targets: ['redis:9121']
+    metrics_path: '/metrics'
+    scheme: 'http'
+
+  - job_name: 'node-exporter'
+    static_configs:
+      - targets: ['node-exporter:9100']
+    metrics_path: '/metrics'
+    scheme: 'http'
+
+  - job_name: 'cadvisor'
+    static_configs:
+      - targets: ['cadvisor:8080']
+    metrics_path: '/metrics'
+    scheme: 'http'
 
   - job_name: 'prometheus'
     static_configs:
-      - targets: ['localhost:9090'] 
+      - targets: ['localhost:9090']
+
+rule_files:
+  - 'alert_rules.yml'
+
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: ['alertmanager:9093']
+      scheme: http
+      timeout: 10s
+      api_version: v2
+
+remote_write:
+  - url: "http://thanos-receive:10908/api/v1/receive"
+    queue_config:
+      max_samples_per_send: 1000
+      capacity: 10000
+      max_shards: 200
+      min_shards: 1
+      max_samples_per_send: 1000
+      batch_send_deadline: 5s
+      min_backoff: 30ms
+      max_backoff: 100ms 

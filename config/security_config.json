@@ -1,0 +1,119 @@
+{
+    "encryption": {
+        "algorithm": "AES-256-GCM",
+        "key_rotation_days": 90,
+        "salt_length": 32,
+        "key_storage": {
+            "type": "vault",
+            "path": "/vault/secrets/encryption_key"
+        }
+    },
+    "rbac": {
+        "roles": {
+            "admin": ["*"],
+            "manager": [
+                "read",
+                "write",
+                "delete",
+                "export",
+                "view_reports"
+            ],
+            "analyst": [
+                "read",
+                "view_reports",
+                "export"
+            ],
+            "user": [
+                "read",
+                "self_update"
+            ]
+        },
+        "permissions": {
+            "read": "Read access to data",
+            "write": "Write/modify data",
+            "delete": "Delete data",
+            "export": "Export data",
+            "view_reports": "View analytics reports",
+            "self_update": "Update own profile",
+            "*": "All permissions"
+        }
+    },
+    "audit": {
+        "retention_days": 365,
+        "log_levels": ["INFO", "WARNING", "ERROR", "CRITICAL"],
+        "events": {
+            "login": true,
+            "logout": true,
+            "data_access": true,
+            "data_modification": true,
+            "configuration_changes": true,
+            "permission_changes": true,
+            "security_events": true
+        },
+        "storage": {
+            "type": "file",
+            "path": "logs/security/audit.log",
+            "rotation": {
+                "max_size": "100MB",
+                "backup_count": 10
+            }
+        }
+    },
+    "monitoring": {
+        "failed_login_threshold": 5,
+        "session_timeout_minutes": 30,
+        "password_policy": {
+            "min_length": 12,
+            "require_uppercase": true,
+            "require_lowercase": true,
+            "require_numbers": true,
+            "require_special": true,
+            "max_age_days": 90,
+            "history_size": 5
+        },
+        "alerts": {
+            "failed_logins": true,
+            "suspicious_activity": true,
+            "permission_changes": true,
+            "data_breaches": true
+        },
+        "notifications": {
+            "email": true,
+            "slack": true,
+            "webhook": true
+        }
+    },
+    "compliance": {
+        "gdpr": {
+            "enabled": true,
+            "data_retention_days": 90,
+            "right_to_be_forgotten": true
+        },
+        "hipaa": {
+            "enabled": false,
+            "data_retention_days": 180
+        },
+        "iso27001": {
+            "enabled": true,
+            "audit_frequency_days": 90
+        }
+    },
+    "api_security": {
+        "rate_limiting": {
+            "enabled": true,
+            "requests_per_minute": 100,
+            "burst_size": 50
+        },
+        "cors": {
+            "enabled": true,
+            "allowed_origins": ["https://yourdomain.com"],
+            "allowed_methods": ["GET", "POST", "PUT", "DELETE"],
+            "allowed_headers": ["Authorization", "Content-Type"]
+        },
+        "ssl": {
+            "enabled": true,
+            "min_version": "TLSv1.2",
+            "certificate_rotation_days": 90
+        }
+    }
+} 

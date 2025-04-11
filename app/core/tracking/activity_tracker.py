@@ -19,6 +19,11 @@ import time
 import logging
 import os
 from datetime import datetime
+import threading
+import json
+from typing import Dict, Any, Callable, Optional
+from pynput.keyboard import Key
+from pynput.mouse import Button
 
 # Initialize license manager
 license_manager = LicenseManager()
@@ -43,19 +48,146 @@ logging.basicConfig(
 last_activity_time = time.time()
 inactive_threshold = 300  # 5 minutes in seconds
 
-def on_press(key):
-    global last_activity_time
-    last_activity_time = time.time()
-    try:
-        logging.info(f"Key pressed: {key.char}")
-    except AttributeError:
-        logging.info(f"Special key pressed: {key}")
+class ActivityTracker:
+    def __init__(self, data_dir: str = "data/activity"):
+        self.data_dir = data_dir
+        self.keyboard_listener = None
+        self.mouse_listener = None
+        self.is_running = False
+        self.events = []
+        self.lock = threading.Lock()
+        
+        # Create data directory if it doesn't exist
+        os.makedirs(data_dir, exist_ok=True)
 
-def on_click(x, y, button, pressed):
-    global last_activity_time
-    last_activity_time = time.time()
-    action = "Pressed" if pressed else "Released"
-    logging.info(f"Mouse {action} at ({x}, {y}) with {button}")
+    def on_key_press(self, key):
+        try:
+            key_char = key.char
+        except AttributeError:
+            key_char = str(key)
+        
+        event = {
+            'type': 'keyboard',
+            'action': 'press',
+            'key': key_char,
+            'timestamp': datetime.now().isoformat()
+        }
+        
+        with self.lock:
+            self.events.append(event)
+
+    def on_key_release(self, key):
+        try:
+            key_char = key.char
+        except AttributeError:
+            key_char = str(key)
+        
+        event = {
+            'type': 'keyboard',
+            'action': 'release',
+            'key': key_char,
+            'timestamp': datetime.now().isoformat()
+        }
+        
+        with self.lock:
+            self.events.append(event)
+
+    def on_mouse_move(self, x, y):
+        event = {
+            'type': 'mouse',
+            'action': 'move',
+            'x': x,
+            'y': y,
+            'timestamp': datetime.now().isoformat()
+        }
+        
+        with self.lock:
+            self.events.append(event)
+
+    def on_mouse_click(self, x, y, button, pressed):
+        event = {
+            'type': 'mouse',
+            'action': 'click',
+            'button': str(button),
+            'pressed': pressed,
+            'x': x,
+            'y': y,
+            'timestamp': datetime.now().isoformat()
+        }
+        
+        with self.lock:
+            self.events.append(event)
+
+    def start(self):
+        if not self.is_running:
+            self.is_running = True
+            
+            # Start keyboard listener
+            self.keyboard_listener = keyboard.Listener(
+                on_press=self.on_key_press,
+                on_release=self.on_key_release
+            )
+            self.keyboard_listener.start()
+            
+            # Start mouse listener
+            self.mouse_listener = mouse.Listener(
+                on_move=self.on_mouse_move,
+                on_click=self.on_mouse_click
+            )
+            self.mouse_listener.start()
+            
+            # Start periodic save thread
+            self.save_thread = threading.Thread(target=self._periodic_save)
+            self.save_thread.daemon = True
+            self.save_thread.start()
+
+    def stop(self):
+        if self.is_running:
+            self.is_running = False
+            if self.keyboard_listener:
+                self.keyboard_listener.stop()
+            if self.mouse_listener:
+                self.mouse_listener.stop()
+            self._save_events()
+
+    def _periodic_save(self):
+        while self.is_running:
+            self._save_events()
+            threading.Event().wait(60)  # Save every minute
+
+    def _save_events(self):
+        with self.lock:
+            if not self.events:
+                return
+            
+            # Create filename with current date
+            filename = os.path.join(
+                self.data_dir,
+                f"activity_{datetime.now().strftime('%Y%m%d')}.json"
+            )
+            
+            # Load existing events if file exists
+            existing_events = []
+            if os.path.exists(filename):
+                with open(filename, 'r') as f:
+                    try:
+                        existing_events = json.load(f)
+                    except json.JSONDecodeError:
+                        pass
+            
+            # Append new events
+            existing_events.extend(self.events)
+            
+            # Save all events
+            with open(filename, 'w') as f:
+                json.dump(existing_events, f, indent=2)
+            
+            # Clear events after saving
+            self.events = []
+
+    def get_recent_events(self, limit: int = 100) -> list:
+        with self.lock:
+            return self.events[-limit:] if self.events else []
 
 def monitor_inactivity():
     """Checks for user inactivity periods"""
@@ -64,6 +196,14 @@ def monitor_inactivity():
         if idle_time > inactive_threshold:
             logging.warning(f"User inactive for {int(idle_time)} seconds")
         time.sleep(60)  # Check every minute
+
+def on_press(key):
+    """Handle key press events"""
+    pass
+
+def on_click(x, y, button, pressed):
+    """Handle mouse click events"""
+    pass
 
 if __name__ == "__main__":
     # Set up listeners
@@ -75,7 +215,6 @@ if __name__ == "__main__":
     mouse_listener.start()
     
     # Start inactivity monitor in separate thread
-    import threading
     inactivity_thread = threading.Thread(target=monitor_inactivity, daemon=True)
     inactivity_thread.start()
     

@@ -1,0 +1,64 @@
+{
+    "admin": {
+        "permissions": [
+            "read:*",
+            "write:*",
+            "delete:*",
+            "manage_users",
+            "manage_roles",
+            "view_audit_logs",
+            "manage_security",
+            "configure_system",
+            "manage_backups",
+            "view_metrics",
+            "manage_alerts"
+        ]
+    },
+    "manager": {
+        "permissions": [
+            "read:*",
+            "write:reports",
+            "view_analytics",
+            "manage_team",
+            "view_team_metrics",
+            "create_reports",
+            "manage_team_alerts"
+        ]
+    },
+    "analyst": {
+        "permissions": [
+            "read:data",
+            "write:reports",
+            "view_analytics",
+            "create_visualizations",
+            "export_data"
+        ]
+    },
+    "user": {
+        "permissions": [
+            "read:own_data",
+            "write:own_data",
+            "view_own_reports",
+            "update_profile",
+            "view_own_metrics"
+        ]
+    },
+    "auditor": {
+        "permissions": [
+            "read:*",
+            "view_audit_logs",
+            "view_metrics",
+            "export_reports",
+            "view_security_alerts"
+        ]
+    },
+    "support": {
+        "permissions": [
+            "read:user_data",
+            "write:support_tickets",
+            "view_system_status",
+            "manage_tickets",
+            "view_metrics"
+        ]
+    }
+} 

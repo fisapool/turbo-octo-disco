@@ -1,0 +1,80 @@
+groups:
+  - name: system_alerts
+    rules:
+      - alert: HighCPUUsage
+        expr: rate(process_cpu_seconds_total[5m]) * 100 > 80
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: High CPU usage
+          description: CPU usage is above 80% for 5 minutes
+          verification: |
+            1. Check running processes: `docker exec -it hr-analytics top`
+            2. Verify metrics: `http://localhost:9090/graph?g0.expr=node_cpu_seconds_total`
+            3. Review recent deployments
+
+      - alert: HighMemoryUsage
+        expr: (node_memory_MemTotal_bytes - node_memory_MemAvailable_bytes) / node_memory_MemTotal_bytes * 100 > 80
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: High memory usage
+          description: Memory usage is above 80% for 5 minutes
+          verification: |
+            1. Check memory usage: `docker stats`
+            2. Identify leak suspects: `pprof -alloc_space http://localhost:6060/debug/pprof/heap`
+            3. Review recent code changes
+
+      - alert: HighDiskUsage
+        expr: (node_filesystem_size_bytes{mountpoint="/"} - node_filesystem_free_bytes{mountpoint="/"}) / node_filesystem_size_bytes{mountpoint="/"} * 100 > 80
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: High disk usage
+          description: Disk usage is above 80% for 5 minutes
+          verification: |
+            1. Check disk usage: `df -h`
+            2. Identify large files: `du -sh /* | sort -h`
+            3. Verify log rotation: `ls -lh /var/log/hr-analytics`
+
+      - alert: HighResponseTime
+        expr: data_processing_duration_seconds > 1
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: High response time
+          description: Response time is above 1 second for 5 minutes
+          verification: |
+            1. Check database connections: `pg_stat_activity`
+            2. Run load test: `locust -f tests/load_test.py --users 100 --spawn-rate 10 --run-time 1m`
+            3. Review query plans
+
+      - alert: DataSyncError
+        expr: rate(data_sync_operations_total{status="error"}[5m]) > 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: Data synchronization error
+          description: Data synchronization is failing
+          verification: |
+            1. Check sync logs: `docker logs hr-analytics-sync`
+            2. Verify network connectivity
+            3. Test credentials: `curl -v https://sync-endpoint`
+
+      - alert: HighAlertRate
+        expr: rate(alerts_generated_total[5m]) > 10
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: High alert rate
+          description: Alert generation rate is above 10 per 5 minutes
+          verification: |
+            1. Check alert manager: `http://localhost:9093`
+            2. Review recent system changes
+            3. Verify monitoring thresholds

@@ -2,15 +2,23 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 from flask_login import LoginManager, login_user, login_required, logout_user, current_user
 from datetime import datetime
 import os
-from .models import db, User, bcrypt
-from .api_routes import api
-from .roles import Role, admin_required, employee_required
+from models import db, User, bcrypt
+from api_routes import api
+from roles import Role, admin_required, employee_required
 from email_validator import validate_email, EmailNotValidError
 
 def create_app():
     app = Flask(__name__)
-    app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'dev-key-please-change-in-production')
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///hr_logs.db'
+    
+    # Production configuration
+    app.config['SECRET_KEY'] = os.environ['SECRET_KEY']  # Required in production
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', 'sqlite:///hr_logs.db')
+    app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {
+        'pool_pre_ping': True,
+        'pool_recycle': 300,
+        'pool_size': 20,
+        'max_overflow': 10
+    }
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
     # Initialize extensions
@@ -127,7 +135,56 @@ if __name__ == '__main__':
                 email='admin@example.com',
                 role=Role.ADMIN
             )
-            admin.password = 'admin123'  # This will be hashed automatically
+            admin.password = os.environ['ADMIN_PASSWORD']  # Required in production
             db.session.add(admin)
             db.session.commit()
-    app.run(debug=True) 
+    
+    # Production health check endpoint
+    @app.route('/health')
+    def health_check():
+        return {'status': 'healthy'}, 200
+
+    # Testing endpoints
+    @app.route('/test/rollback', methods=['POST'])
+    @admin_required
+    def test_rollback():
+        """Endpoint to test rollback procedures"""
+        app.logger.info("Rollback test initiated")
+        return {'status': 'rollback test successful'}, 200
+
+    @app.route('/test/load', methods=['POST'])
+    @admin_required
+    def test_load():
+        """Endpoint for load testing"""
+        app.logger.info("Load test initiated")
+        return {'status': 'load test endpoint ready'}, 200
+
+    @app.route('/test/alert', methods=['POST'])
+    @admin_required
+    def test_alert():
+        """Endpoint to trigger test alerts"""
+        app.logger.warning("Test alert triggered")
+        return {'status': 'test alert sent'}, 200
+
+    # Configure production logging
+    if os.environ.get('FLASK_ENV') != 'development':
+        import logging
+        from logging.handlers import RotatingFileHandler
+        
+        # Ensure log directory exists
+        log_dir = os.path.join(os.path.dirname(__file__), 'logs')
+        os.makedirs(log_dir, exist_ok=True)
+        
+        # Set up file handler
+        file_handler = RotatingFileHandler(
+            os.path.join(log_dir, 'hr_logs.log'),
+            maxBytes=1024 * 1024 * 10,  # 10MB
+            backupCount=10
+        )
+        file_handler.setFormatter(logging.Formatter(
+            '%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]'
+        ))
+        file_handler.setLevel(logging.INFO)
+        app.logger.addHandler(file_handler)
+        app.logger.setLevel(logging.INFO)
+        app.logger.info('HR Logs startup')

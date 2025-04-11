@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    environment:
+      - FLASK_ENV=development
+      - DATABASE_URL=sqlite:///instance/app.db
+      - SECRET_KEY=dev_secret_key
+      - PYTHONPATH=/app
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: sh -c "pip install -e . && gunicorn --bind 0.0.0.0:8000 --workers 4 'app:create_app()'"
